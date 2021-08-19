@@ -189,7 +189,8 @@ TARGET_NO_RECOVERY := true
 
 # Sepolicy
 include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 #SELINUX_IGNORE_NEVERALLOWS := true
 
 # Treble
