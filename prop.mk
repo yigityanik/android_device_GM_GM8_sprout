@@ -82,6 +82,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.hfp.client=1 \
     qcom.bluetooth.soc=smd \
+    persist.bluetooth.bluetooth_audio_hal.disabled=true \
     ro.bluetooth.hfp.ver=1.7 \
     ro.qualcomm.bt.hci_transport=smd
 	
