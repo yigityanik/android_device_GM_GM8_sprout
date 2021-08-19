@@ -32,6 +32,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     persist.dbg.wfc_avail_ovr=1 \
     qemu.hw.mainkeys=0 \
     rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
+	ro.telephony.default_network=22,20 \
     ro.af.client_heap_size_kbyte=7168 \
     ro.carrier=unknown \
     ro.com.android.dataroaming=true \
