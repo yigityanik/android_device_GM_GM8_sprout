@@ -316,6 +316,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# Telephony Permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/android.hardware.telephony.ims.xml:system/etc/permissions/android.hardware.telephony.ims.xml \
+    $(LOCAL_PATH)/permissions/qti.xml:system/etc/permissions/qti.xml
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
