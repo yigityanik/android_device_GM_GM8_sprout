@@ -1,0 +1,2 @@
+genfscon sysfs /android_touch/wakeup_gesture_enable	u:object_r:sys_android_touch_wakeup_gesture_enable:s0
+genfscon proc /android_touch/SMWP	u:object_r:proc_android_touch_smwp:s0

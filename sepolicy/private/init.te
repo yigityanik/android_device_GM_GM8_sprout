@@ -1,0 +1,10 @@
+# Allow init to chown / chmod to pseudo files
+allow init sys_android_touch_wakeup_gesture_enable:file setattr;
+allow init proc_android_touch_smwp:file setattr;
+
+# Allow init to mount files to vendor
+allow init vendor_file:file mounton;
+allow init vendor_configs_file:file mounton;
+
+# Allow init to mount offmode charging daemon
+allow init rootfs:file mounton;

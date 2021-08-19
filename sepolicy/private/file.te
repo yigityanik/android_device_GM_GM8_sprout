@@ -1,0 +1,8 @@
+type adsprpcd_file, file_type;
+type bt_firmware_file, file_type;
+type display_data_file, data_file_type, core_data_file_type, file_type;
+type firmware_file, file_type;
+type persist_file, file_type;
+type pps_socket, file_type;
+type sys_android_touch_wakeup_gesture_enable, fs_type, sysfs_type;
+type proc_android_touch_smwp, fs_type, proc_type;

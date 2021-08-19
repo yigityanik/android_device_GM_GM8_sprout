@@ -1,0 +1,2 @@
+allow hal_power sys_android_touch_wakeup_gesture_enable:file rw_file_perms;
+allow hal_power proc_android_touch_smwp:file rw_file_perms;
