@@ -275,7 +275,6 @@ on boot
 
 # msm specific files that need to be created on /data
 on post-fs-data
-    start move_fp
     mkdir /data/vendor/misc 01771 system system
 
     # Create directory used for dump collection
@@ -1128,12 +1127,3 @@ on property:sys.boot_completed=1
    # selinux nodes, hide permissive state
    chmod 0640 /sys/fs/selinux/enforce
    chmod 0440 /sys/fs/selinux/policy
-
-#Move the old fingerprint templates to new path
-service move_fp /vendor/bin/move_fp
-    class main
-    disabled
-    oneshot
-    user system
-    group system
-    seclabel u:r:hal_fingerprint_default:s0
