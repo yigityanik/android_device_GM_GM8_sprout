@@ -79,6 +79,11 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     persist.sys.usb.config=mtp,adb \
     sys.usb.configfs=0
 
+    # Charger
+    PRODUCT_PRODUCT_PROPERTIES += \
+    ro.charger.disable_init_blank=true \
+    ro.charger.enable_suspend=true
+
     # Bluetooth
     PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.hfp.client=1 \

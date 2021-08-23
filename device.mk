@@ -231,6 +231,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0_vendor \
     Snap
 
+# Charging
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Configstore
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service
