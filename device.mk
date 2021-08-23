@@ -381,8 +381,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    libgui_vendor \
-    vndk-sp
+    libgui_vendor
 
 # Thermal
 PRODUCT_PACKAGES += \
