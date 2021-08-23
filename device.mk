@@ -138,6 +138,7 @@ PRODUCT_PACKAGES += \
 	init.qcom.wifi.sh \
 	init.qcom.syspart_fixup.sh \
 	init.qcom.sh \
+	init.qcom.usb.sh \
 	init.qcom.sensors.sh \
 	init.qcom.sdio.sh \
 	init.qcom.efs.sync.sh \
