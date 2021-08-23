@@ -218,6 +218,11 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.a2dp@1.0-service \
     vendor.qti.hardware.bluetooth_audio@2.0
 
+# Binder
+PRODUCT_PACKAGES += \
+    libhwbinder \
+    libhwbinder.vendor
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
@@ -277,6 +282,8 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0
     android.hidl.base@1.0_system \
     android.hidl.manager@1.0 \
+    libhidltransport \
+    libhidltransport.vendor \
     android.hidl.manager@1.0-java
 
 # IPA Manager
