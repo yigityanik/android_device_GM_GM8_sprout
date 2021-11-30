@@ -71,6 +71,35 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     vendor.voice.record.conc.disabled=false \
     vendor.voice.voip.conc.disabled=true 
 
+    # Display
+    PRODUCT_PROPERTY_OVERRIDES += \
+    debug.hwui.use_buffer_age=false \
+    debug.sf.disable_backpressure=1 \
+    debug.sf.early.sf.duration=16000000 \
+    debug.sf.early.app.duration=16500000 \
+    debug.sf.earlyGl.sf.duration=13500000 \
+    debug.sf.earlyGl.app.duration=21000000 \
+    debug.sf.enable_hwc_vds=1 \
+    debug.sf.hw=0 \
+    debug.sf.latch_unsignaled=1 \
+    debug.sf.late.sf.duration=10500000 \
+    debug.sf.late.app.duration=20500000 \
+    debug.sf.use_phase_offsets_as_durations=1 \
+    persist.demo.hdmirotationlock=false \
+    ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
+    ro.surface_flinger.max_virtual_display_dimension=4096 \
+    ro.hardware.egl=adreno \
+    ro.hardware.vulkan=adreno \
+    ro.opengles.version=196610 \
+    vendor.display.disable_skip_validate=1 \
+    ro.sf.lcd_density=420 \
+    ro.vendor.display.cabl=0 \
+    sdm.debug.disable_skip_validate=1 \
+    vendor.display.disable_skip_validate=1 \
+    vendor.display.enable_default_color_mode=1 \
+    vendor.gralloc.enable_fb_ubwc=1 \
+    video.accelerate.hw=1
+
     # Enabling ADB
     PRODUCT_PROPERTY_OVERRIDES += \
     ro.secure=0 \
