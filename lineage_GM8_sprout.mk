@@ -24,6 +24,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# GMS
+WITH_GMS := true
+$(call inherit-product, vendor/gms/products/gms.mk)
+
 PRODUCT_BRAND := GM
 PRODUCT_DEVICE := GM8_sprout
 PRODUCT_MANUFACTURER := General Mobile
