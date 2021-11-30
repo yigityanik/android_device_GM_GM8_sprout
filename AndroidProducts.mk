@@ -15,4 +15,4 @@
 # 
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_GM8_sprout.mk
+    $(LOCAL_DIR)/lineage_GM8_sprout.mk
