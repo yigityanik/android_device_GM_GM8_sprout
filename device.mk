@@ -335,10 +335,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
 	power.qcom
 	
-# Perf	
-PRODUCT_PACKAGES += \	
+# Perf
+PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@1.0.vendor
-
+	
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:system/etc/powerhint.xml
 	
