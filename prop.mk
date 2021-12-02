@@ -33,7 +33,8 @@
     sys.vendor.shutdown.waittime=500 \
     vendor.hw.fm.init=0 \
     vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
-	ro.vendor.extension_library=libqti-perfd-client.so
+	ro.vendor.extension_library=libqti-perfd-client.so \
+	vendor.vidc.disable.split.mode=1
 
     # Audio
     PRODUCT_PROPERTY_OVERRIDES += \
